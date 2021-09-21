@@ -1,0 +1,47 @@
+.form-section {
+    background-color: $clr-dark-white;
+    text-align: left;
+    padding-bottom: 4rem;
+
+    &__input{
+        width: 100%;
+        border: none;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &__success{
+        color: $clr-theme-dark-blue;
+        padding:2rem;
+    }
+
+    &__first-column{
+        margin-bottom: 2rem;
+    }
+}
+
+.sub-heading{
+    text-align: left;
+    p{
+        margin: 0.7rem 0;
+    }
+}
+
+.form-contact-block {
+    background-color: $clr-white;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    margin-bottom: 2rem;
+
+    &__icon{
+        border-radius: 50%;
+        width:3.5rem;
+        height: 3.5rem;
+        color: $clr-white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+    }
+}
+

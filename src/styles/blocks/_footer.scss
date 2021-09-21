@@ -1,0 +1,94 @@
+.inner-footer{
+    background-color: $clr-theme-dark-blue;
+    background-image: url('https://images.unsplash.com/photo-1629487017643-e10b36ef4ae5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80');
+    background-size: cover;
+    color: $clr-white;
+
+    &__background{
+        background-color: rgba(13,20,33,0.97);
+        padding: 3rem 0;
+    }
+
+    h3{
+        color:white;
+        text-transform: capitalize;
+    }
+
+    i{
+        color: $clr-white;
+        background-color: $clr-theme-dark-blue;
+        padding: 0.4rem;
+        margin-right: 0.5rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: $clr-dark-white;
+        &:hover{
+            color: $clr-white;
+        }
+    }
+
+    p, h3{
+        color: $clr-white;
+    }
+
+    h3{
+        padding-bottom: 3rem;
+
+        @include media-breakpoint-down(md) {
+            padding-top: 2.5rem;
+        }   
+    }
+
+    &__first-paragraph{
+        padding: 2rem 0;
+    }
+
+    &__border{
+        margin-top: 0.8rem;
+
+        p{
+            width: 100%;
+            padding: 0.8rem 0;
+            border-top: 1px $clr-dark-white solid;
+        }
+    }
+
+    h4{
+        margin: 1rem 0;
+        color: $clr-dark-white;
+    }
+
+    &__image-grid{
+        display: flex;   
+        justify-content: space-between;
+        
+        img{
+            width: 95%;
+            margin-top: 10px;
+        }
+    }
+}
+
+.outer-footer{
+    background-color: $clr-theme-dark-blue;
+        i{
+            background-color: $clr-dark-white;
+            color: $clr-theme-dark-blue;
+            padding: 1rem;
+            margin: 0.4rem;
+        }
+
+    p{
+        color: $clr-dark-white;
+        margin: 0.4rem;
+    }
+}
+
+.logo{
+    height: 3.5rem;
+    width: 8rem;
+    object-fit: cover;
+}
+

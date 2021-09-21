@@ -1,0 +1,38 @@
+.image-card{
+    padding-bottom: 2rem;
+
+    img{
+        height:250px;
+    }
+
+    &__content{
+        border: 1px $clr-medium-grey solid;
+        padding: 0.5rem;
+        background-color: $clr-white;
+        border-top: none;
+        box-sizing: border-box;
+        width:100%;
+        text-align: center;
+    }
+}
+
+.three-image-cards{
+
+    &__background{
+    background-color: $clr-dark-white;
+    padding-bottom: 20rem;
+    }
+
+    &__content{
+        position: relative;
+        top: -300px;
+        margin-bottom: -280px;
+    }
+
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    height:100%;
+}

@@ -1,0 +1,13 @@
+.bttn{
+    background-color: $clr-theme-blue;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border: none;
+
+    &:hover{
+        background-color: $clr-theme-blue-darker;
+        color: $clr-white;
+    }
+}

@@ -1,0 +1,37 @@
+.blog{
+    padding-bottom: 2rem;
+
+    &__line{
+        color: $clr-white;
+        background-color: $clr-theme-dark-blue;
+        width: 100%;
+        padding: 0.2rem 0.3rem;
+
+        i, span{
+            padding: 0.2rem 0.3rem;
+            cursor: pointer;
+        }
+    }
+
+    &__container{
+        padding-bottom: 5rem;
+
+    }
+
+    &__description{
+        border-left: 3px solid $clr-medium-grey;
+        margin-left: 1.5rem;
+        margin-top:1rem;
+        padding-bottom: 2rem;
+    }
+
+    &__text{
+       p{
+        color: $clr-theme-blue;
+       } 
+    }
+
+    img{
+        height: 15rem;
+    }
+}

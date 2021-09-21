@@ -1,0 +1,57 @@
+h1, h2, h3{
+    font-family: 'Besley', serif;
+    color: $clr-dark-grey;
+}
+
+h1{
+    font-size: 1.35rem;
+
+    @include media-breakpoint-up(md) {
+        font-size: 3rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 3.5rem;
+    }
+}
+
+h2{
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+
+    @include media-breakpoint-up(md) {
+        font-size: 1.5rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 1.8rem;
+    }
+}
+
+h3{
+    font-size: 1.0rem;
+    font-family: 500;
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    color: $clr-dark-grey;
+    margin: 0;
+    padding: 0;
+}
+
+p + strong{
+    font-weight: 500;
+}

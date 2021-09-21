@@ -1,0 +1,40 @@
+.hero{
+    background-color: $clr-theme-dark-blue;
+    background-image: url('https://images.unsplash.com/photo-1629487017643-e10b36ef4ae5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80');
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 8rem;
+    padding-bottom: 13rem;
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+        padding-top: 5rem;
+        padding-bottom: 10rem; 
+    }
+
+    @include media-breakpoint-up(lg) {
+        padding-top: 10rem;
+        padding-bottom: 15rem;    
+    }
+
+    &__content{
+        margin: 0 auto;
+    }
+
+    p{
+        color: $clr-white;
+    }
+
+    h1{
+        color: $clr-theme-blue-light;
+
+    }
+
+    p{
+        padding-top: 1rem;
+        padding-bottom: 2.7rem;
+        max-width: 700px;
+    }
+}
+
+

@@ -1,0 +1,36 @@
+.testimonials{
+    background-color: $clr-theme-blue;
+
+    p, h2, h4{
+        color: $clr-white;
+    }
+
+    padding-bottom: 3rem;
+}
+
+.testimonial{
+    margin-bottom: 2rem;
+
+    &__image{
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+        object-fit: cover;
+        margin-right:1rem;
+    }
+
+    &__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: $clr-white;
+        border-radius: 1.5rem 0 1.5rem 0;
+        padding: 1rem;
+        color: $clr-dark-grey;
+    }
+
+    span{
+        color: $clr-dark-grey;
+    }
+}

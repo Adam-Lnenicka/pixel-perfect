@@ -1,0 +1,45 @@
+.benefits{
+    position: relative;
+    top: -5rem;
+    margin-bottom: -2rem;
+
+}
+
+.benefit{
+    border-radius: 2.7rem 0 2.7rem 0;
+    color: $clr-white;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    text-align: center;
+
+    p, h3 {
+        color: $clr-white;
+    }
+
+    h3{
+        padding-top:1rem;
+        padding-bottom:0.6rem;
+    }
+
+    &__icon{
+        background-color: white;
+        color: $clr-theme-blue;
+        border-radius: 50%;
+        width:4rem;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.pink{
+    background-color: rgb(241, 10, 48);
+    color: white
+}
+
+.my-test{
+    background-color: pink;
+}
